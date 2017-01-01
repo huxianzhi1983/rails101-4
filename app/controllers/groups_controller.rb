@@ -43,6 +43,7 @@ class GroupsController < ApplicationController
     flash[:alert] = "Group deleted"
     redirect_to groups_path
   end
+  
   private
 
   def find_group_and_check_permission
